@@ -16,6 +16,8 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String","API_KEY","\"8571e07c1c6347d19b31655f1c222d96\"")
+        buildConfigField("String","BASE_URL","\"https://api.rawg.io/api/\"")
+
     }
 
     buildTypes {
