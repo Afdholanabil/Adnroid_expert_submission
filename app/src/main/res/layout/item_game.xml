@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="10dp">
 
@@ -27,7 +27,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"/>
 
             <TextView
-                android:id="@+id/tv_tanggal_riwayat"
+                android:id="@+id/tv_judul_game"
                 android:layout_width="wrap_content"
                 android:text="Judul game"
                 android:fontFamily="@font/intersemibold"
@@ -37,9 +37,9 @@
                 android:layout_marginStart="15dp"
                 app:layout_constraintStart_toEndOf="@id/iv_riwayat_deteksi"
                 app:layout_constraintTop_toTopOf="@id/iv_riwayat_deteksi"
-                app:layout_constraintBottom_toTopOf="@id/tv_info_riwayat_deteksi"/>
+                app:layout_constraintBottom_toTopOf="@id/tv_desk_game"/>
             <TextView
-                android:id="@+id/tv_info_riwayat_deteksi"
+                android:id="@+id/tv_desk_game"
                 android:layout_width="wrap_content"
                 android:text="Deskripsi"
                 android:fontFamily="@font/abelregular"
@@ -50,7 +50,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="10dp"
                 app:layout_constraintStart_toEndOf="@id/iv_riwayat_deteksi"
-                app:layout_constraintTop_toBottomOf="@id/tv_tanggal_riwayat"/>
+                app:layout_constraintTop_toBottomOf="@id/tv_judul_game"/>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
