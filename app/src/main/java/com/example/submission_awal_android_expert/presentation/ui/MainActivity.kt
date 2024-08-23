@@ -3,17 +3,15 @@ package com.example.submission_awal_android_expert.presentation.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.activity.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.transition.Visibility
 import com.example.submission_awal_android_expert.BuildConfig
 import com.example.submission_awal_android_expert.data.repository.GameRepository
 import com.example.submission_awal_android_expert.data.response.ResultsItem
 import com.example.submission_awal_android_expert.data.retrofit.ApiConfig
 import com.example.submission_awal_android_expert.databinding.ActivityMainBinding
-import com.example.submission_awal_android_expert.help.gameAdapter
+import com.example.submission_awal_android_expert.presentation.adapter.gameAdapter
 import com.example.submission_awal_android_expert.presentation.viewmodel.MainViewModel
 import com.example.submission_awal_android_expert.presentation.viewmodel.factory.MainViewModelFactory
 
